@@ -42,8 +42,40 @@
 
 						<div id="banner">
 							<h2>hello everyone :)</h2>
-							<span>welcome to my page !</span>
+							<div class="scrolling-text-container">
+								<div class="scrolling-text-wrapper">
+									<span class="scrolling-text-item"> welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome wilkommen welcome welcome welcome welcome welcome welcome welcome boo! welcome welcome welcome welcome welcome welcome welcome welcome hello there welcome welcome welcome welcome welcome welcome welcome welcome welcome bienvenue welcome </span>
+									<span class="scrolling-text-item"> welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome wilkommen welcome welcome welcome welcome welcome welcome welcome boo! welcome welcome welcome welcome welcome welcome welcome welcome hello there welcome welcome welcome welcome welcome welcome welcome welcome welcome bienvenue welcome </span>
+								</div>
+							</div>
 						</div>
+						<style>
+						.scrolling-text-container {
+							width: 100%;
+							overflow: hidden;
+						}
+
+						.scrolling-text-wrapper {
+                            display: flex;
+							width: max-content;
+                            animation: scroll-left 30s linear infinite;
+							will-change: transform;
+                        }
+
+						.scrolling-text-container:hover .scrolling-text-wrapper {
+                            animation-play-state: paused;
+                        }
+
+                        .scrolling-text-item {
+                            flex: 0 0 auto;
+							padding-right: 3rem;
+                        }
+
+						@keyframes scroll-left {
+							0% { transform: translate3d(0, 0, 0); }
+							100% { transform: translate3d(-50%, 0, 0); }
+						}
+						</style>
 
 					</div>
 				</div>
@@ -52,37 +84,40 @@
 				<div id="main">
 					<div class="container">
 						<div class="row main-row">
-							<div class="col-4 col-6-medium col-12-small">
-
-								<section>
-									<h2>my favorite creatures</h2>
-									<ul class="small-image-list">
-										<li>
-											<a href="#"><img src="images/pusheen.webp" alt="" class="left" /></a>
-											<h4>Pusheen</h4>
-											<p>i love her. look at her. such poise. elegance. a pioneer on the forefront of divinity.</p>
-										</li>
-										<li>
-											<a href="#"><img src="images/calli.jpg" alt="" class="left" /></a>
-											<h4>Calli!!!!</h4>
-											<p>my beautiful family dog. shes so cute and adorable but will rip you and your children to shreds if given the chance</p>
-										</li>
-									</ul>
-								</section>
-
-							</div>
 							<div class="col-4 col-12-medium">
 
 								<section>
 									<h2>Welcome to my portfolio!</h2>
 									<p>My name is <strong>Maddie Morelos</strong>, and I am a fourth year <a href="https://laes.calpoly.edu">Liberal Arts and Engineering Studies</a> major at <a href="https://www.calpoly.edu">California Polytechnic State University, San Luis Obispo</a> with concentrations in Computer Graphics and Interactive Communications (Cinematic). </p>
 									<footer class="controls">
-										<a href="http://html5up.net" class="button">More cool designs ...</a>
+										<a href="#" class="button">click me!</a>
 									</footer>
 								</section>
 
 							</div>
 							<div class="col-4 col-6-medium col-12-small">
+
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+
+								<section>
+									<h2>albums of the month</h2>
+									<ul class="small-image-list">
+										<li>
+											<a href="https://open.spotify.com/album/58NsNICf7hyif5WruzsLWc?si=nlvJPpz-TziOnCiW98ef0Q"><img src="images/Jeff_sine.png" alt="" class="left" /></a>
+											<h4>Live at Sin-é (Legacy Edition)</h4>
+											<p>Jeff Buckley</p>
+										</li>
+										<li>
+											<a href="https://open.spotify.com/track/44K0gLzznvParAeClgXkE8?si=05484c5871c94845"><img src="images/useless.png" alt="" class="left" /></a>
+											<h4>Useless</h4>
+											<p>Ashton Blaiir</p>
+										</li>
+									</ul>
+								</section>
+
+							</div>
+							<!-- <div class="col-4 col-6-medium col-12-small">
 
 								<section>
 									<h2>How about some links?</h2>
@@ -110,33 +145,29 @@
 									</div>
 								</section>
 
-							</div>
+							</div> -->
 							<div class="col-6 col-12-medium">
 
 								<section>
-									<h2>An assortment of pictures and text</h2>
-									<p>Duis neque nisi, dapibus sed mattis quis, rutrum et accumsan.
-									Suspendisse nibh. Suspendisse vitae magna eget odio amet mollis
-									justo facilisis quis. Sed sagittis mauris amet tellus gravida
-									lorem ipsum dolor sit amet consequat blandit lorem ipsum dolor
-									sit amet consequat sed dolore.</p>
+									<h2>recent projects :O</h2>
+									<p>take a look!</p>
 									<ul class="big-image-list">
 										<li>
-											<a href="#"><img src="images/pic3.jpg" alt="" class="left" /></a>
+											<a href="final.html"><img src="images/thumb.jpg" alt="" class="left" /></a>
+											<h3>csc/cpe 471 final project</h3>
+											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
+											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
+											Maecenas eu arcu purus, phasellus fermentum elit.</p>
+										</li>
+										<li>
+											<a href="onecolumn.html"><img src="images/pic4.jpg" alt="" class="left" /></a>
 											<h3>Magna Gravida Dolore</h3>
 											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
 											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
 											Maecenas eu arcu purus, phasellus fermentum elit.</p>
 										</li>
 										<li>
-											<a href="#"><img src="images/pic4.jpg" alt="" class="left" /></a>
-											<h3>Magna Gravida Dolore</h3>
-											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-											Maecenas eu arcu purus, phasellus fermentum elit.</p>
-										</li>
-										<li>
-											<a href="#"><img src="images/pic5.jpg" alt="" class="left" /></a>
+											<a href="onecolumn.html"><img src="images/pic5.jpg" alt="" class="left" /></a>
 											<h3>Magna Gravida Dolore</h3>
 											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
 											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
