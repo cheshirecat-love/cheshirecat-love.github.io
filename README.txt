@@ -1,3 +1,17 @@
+my personal website :> maddie morelos
+
+after going through the .wavzine application and realizing i needed a portfolio, i decided to just make my own website for portfolio, resume, and fun reasons. i used the Minimaxing template by HTML5 UP, whose included readme is appended below. YAY! :]
+
+
+
+
+
+
+
+
+
+ 
+
 Minimaxing by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
