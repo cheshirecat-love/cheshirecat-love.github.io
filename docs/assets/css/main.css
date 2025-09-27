@@ -41,6 +41,13 @@ img.photo {
 	width: 24%;
 }
 
+img.resume {
+	border: 0;
+	float: left;
+	margin: 2px;
+	width: 100%;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
