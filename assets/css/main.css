@@ -9,7 +9,7 @@
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
+code, del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
@@ -23,6 +23,23 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+
+/* my stuff */
+img {
+	margin: 0;
+	padding: 0;
+	border: 5px double #71cbd3;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+img.photo {
+	border: 0;
+	float: left;
+	margin: 2px;
+	width: 24%;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1471,6 +1488,27 @@ input, select, textarea {
 			width: 178px;
 		}
 
+	/* my stuff */
+	ul.custom-small-image-list li {
+		overflow: hidden;
+		margin-bottom: 1.5em;
+		display: inline-block;
+	}
+
+		ul.custom-small-image-list li img {
+			width: 200px;
+		}
+
+	ul.custom-big-image-list li {
+		overflow: hidden;
+		margin-bottom: 2em;
+		display: inline-block;
+	}
+
+		ul.custom-big-image-list li img {
+			width: 578px;
+		}
+
 	ul.link-list li {
 		border-top: solid 1px #ced0b7;
 		padding: 0.75em 0 0 0;
@@ -1668,6 +1706,27 @@ input, select, textarea {
 				width: 75px;
 			}
 
+			/* my stuff */
+			ul.custom-small-image-list li {
+				overflow: hidden;
+				margin-bottom: 1.5em;
+				display: inline-block;
+			}
+
+				ul.custom-small-image-list li img {
+					width: 128px;
+				}
+
+			ul.custom-big-image-list li {
+				overflow: hidden;
+				margin-bottom: 2em;
+				display: inline-block;
+			}
+
+				ul.custom-big-image-list li img {
+					width: 370px;
+				}
+			
 		/* Header */
 
 			#header {
@@ -1940,6 +1999,25 @@ input, select, textarea {
 			ul.big-image-list li img {
 				width: 100px;
 			}
+
+			/* my stuff */
+			ul.custom-small-image-list li {
+				overflow: hidden;
+				display: inline-block;
+			}
+
+				ul.custom-small-image-list li img {
+					width: 100px;
+				}
+
+			ul.custom-big-image-list li {
+				overflow: hidden;
+				display: inline-block;
+			}
+
+				ul.custom-big-image-list li img {
+					width: 100px;
+				}
 
 			ul.link-list {
 				margin: 0 0 1em 0;
