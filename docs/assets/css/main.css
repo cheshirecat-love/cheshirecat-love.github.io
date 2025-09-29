@@ -37,8 +37,6 @@ img {
 img.photo {
 	border: 0;
 	float: left;
-	margin: 2px;
-	width: 24%;
 }
 
 img.resume {
@@ -1516,6 +1514,11 @@ input, select, textarea {
 			width: 578px;
 		}
 
+	img.photo {
+		margin: 2px;
+		width: 24%;
+	}
+
 	ul.link-list li {
 		border-top: solid 1px #ced0b7;
 		padding: 0.75em 0 0 0;
@@ -1733,6 +1736,11 @@ input, select, textarea {
 				ul.custom-big-image-list li img {
 					width: 370px;
 				}
+
+			img.photo {
+				margin: 1px;
+				width: 29%;
+			}
 			
 		/* Header */
 
@@ -2027,10 +2035,8 @@ input, select, textarea {
 				}
 
 			img.photo {
-				border: 0;
-				float: left;
-				margin: 1px;
-				width: 49%;
+				margin: 2px;
+				width: 48%;
 			}
 
 			ul.link-list {
