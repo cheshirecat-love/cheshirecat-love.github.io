@@ -2026,6 +2026,13 @@ input, select, textarea {
 					width: 100px;
 				}
 
+			img.photo {
+				border: 0;
+				float: left;
+				margin: 1px;
+				width: 49%;
+			}
+
 			ul.link-list {
 				margin: 0 0 1em 0;
 			}
