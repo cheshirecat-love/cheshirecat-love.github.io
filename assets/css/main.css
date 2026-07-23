@@ -25,6 +25,14 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 /* my stuff */
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
 img {
 	margin: 0;
 	padding: 0;
